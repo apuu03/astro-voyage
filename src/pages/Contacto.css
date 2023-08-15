@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  background-color: rgb(68, 68, 68);
+  border-end-end-radius: 13px;
+  border-end-start-radius: 13px;
+}
+nav span a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+form {
+  width: 700px;
+  background-color: rgb(52, 52, 52);
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 13px;
+}
+label,
+input,
+textarea,
+button {
+  display: block;
+  margin-bottom: 10px;
+}
+.user-rating {
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  border: 1px solid rgb(167, 167, 167);
+  margin-top: 30px;
+  padding: 10px;
+  width: 400px;
+}
+.user-rating p {
+  margin-bottom: 5px;
+}
+textarea {
+  resize: vertical;
+}
+input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid rgb(99, 99, 99);
+  background-color: rgb(52, 52, 52);
+
+  outline: none;
+  color: white;
+}
+h4 {
+  border-bottom: 1px solid white;
+}
+button {
+  border: none;
+  border-radius: 13px;
+  padding: 10px;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  transition: 0.3 ease;
+}
+button:hover {
+  background-color: rgb(74, 74, 74);
+  filter: drop-shadow(0 0 0.75rem rgba(199, 200, 199, 0.394));
+  transition: 0.3s ease;
+}
+.user {
+  width: 300px;
+  border-radius: 13px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+  border: 1px solid rgba(88, 88, 88, 0.373);
+  cursor: pointer;
+}
+.user-rating h2 {
+  text-align: center;
+}
+.user:hover {
+  filter: drop-shadow(0 0 2rem rgba(228, 217, 217, 0.593));
+  transition: 0.1s;
+}
+.rating {
+  background-color: rgb(52, 52, 52);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 13px;
+  border: 1px solid rgb(167, 167, 167);
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.rating h3 {
+  font-size: 80px;
+  margin: 0;
+}
+.rating div {
+  text-align: center;
+  background-color: rgb(91, 91, 91);
+  border-radius: 30px;
+  border: 0.3px solid rgba(255, 255, 255, 0.162);
+  padding: 80px;
+}
+.rating div:hover {
+  filter: drop-shadow(0 0 2rem rgba(62, 62, 62, 0.593));
+  transition: 0.1s;
+}
+.container {
+  display: flex;
+}
+a{
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.termsandconditions {
+  display: inline-block;
+  justify-items: center;
+
+}
